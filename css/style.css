@@ -12,6 +12,7 @@ body {
     background: #2b2b2b url("../img/slider-background%20photo.jpg") no-repeat;
     background-blend-mode: overlay;
     background-size: cover;
+    padding-top: 40px;
 
 }
 
@@ -66,7 +67,7 @@ body {
 
 .header .top-side li a {
     text-decoration: none;
-        color: #ffffff;
+    color: #ffffff;
 }
 
 .header .top-side li a:hover {
@@ -95,4 +96,108 @@ body {
     height: 24px;
     width: 24px;
     align-self: center;
+}
+
+.header .slider {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 285px;
+}
+
+.header .slider div {
+    display: inline-flex;
+}
+
+.header .slider .content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 589px;
+}
+
+.header .slider .content h2 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 34px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.header .slider .content h3 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 52px;
+    line-height: 50px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.header .slider .content p {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 52px;
+}
+
+.header .slider .content a {
+    text-decoration: none;
+    background: #9a8775;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 53px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    width: 170px;
+    height: 53px;
+    margin-left: calc(50% - 85px);
+}
+
+.header .slider .content a:hover {
+    color: #9a8775;
+    background: #ffffff;
+}
+
+.header .slider .left,
+.header .slider .right {
+    width: 50px;
+}
+
+.header .slider .left a,
+.header .slider .right a {
+    width: 100%;
+    max-height: 73px;
+    line-height: 73px;
+    content: url("../img/left.png");
+}
+
+.header .slider .right a {
+    transform: rotate(180deg);
+}
+
+.header .slider .left a:hover {
+    content: url("../img/right.png");
+    transform: rotate(180deg);
+}
+
+.header .slider .right a:hover {
+    content: url("../img/right.png");
+    transform: rotate(0deg);
 }
