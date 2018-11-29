@@ -201,3 +201,75 @@ body {
     content: url("../img/right.png");
     transform: rotate(0deg);
 }
+
+.s2 .content {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.s2 .content a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 266px;
+    height: 213px;
+    text-decoration:none;
+    color: #555555;
+    padding-bottom: 33px;
+    background: url("../img/line.png") no-repeat;
+    background-position: bottom center;
+    margin-bottom: 80px;
+    
+}
+
+.s2 .content a:hover {
+    color: #c7b299;
+    background: url("../img/linesolid.png") no-repeat;
+    background-position:bottom center;
+}
+
+
+.s2 .content a img {
+    display: block;
+    width: 49px;
+    min-height: 49px;
+    margin-bottom: 0px;
+}
+
+.s2 .content a h2 {
+    font-family: Raleway;
+    color:inherit;
+    font-size: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 21px; 
+    text-align: center;
+    margin-top: 29px ;
+    margin-bottom: 19px;
+}
+
+.s2 .content a p {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 0px;
+}
+
+.s2 .content a i {
+    font-family: Montserrat;
+    color: inherit;
+    font-size: 40px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 0px;
+}
