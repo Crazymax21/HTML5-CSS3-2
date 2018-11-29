@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Raleway:400,500,600,700,800|Roboto');
 
 @media (max-width: 1003px) {
-    .header .top-side ul {
+    .header .top-side menu {
         flex-flow: wrap;
     }
 }
 
 @media (max-width: 642px) {
-    .header .top-side ul {
+    .header .top-side menu {
         flex-wrap: wrap;
         order: 1;
     }
@@ -69,7 +69,7 @@ body {
     margin-left: 66px;
 }
 
-.header .top-side ul {
+.header .top-side menu {
     display: inline-flex;
     margin: 0;
     padding: 0;
@@ -221,6 +221,11 @@ body {
 .header .slider .right a:hover {
     content: url("../img/right.png");
     transform: rotate(0deg);
+}
+
+.s2 > h2 {
+    visibility: hidden;
+    line-height: 0;
 }
 
 .s2 .content {
