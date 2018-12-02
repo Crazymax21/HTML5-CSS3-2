@@ -502,6 +502,22 @@ body {
     color: #ffffff;
 }
 
+.s5 menu li:hover {
+    display: block;
+    animation: 1s linear 0.5s normal none running rot1;
+}
+
+@keyframes rot1 {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+
 .s5 .content {
     max-width: 1170px;
     display: flex;
