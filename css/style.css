@@ -189,6 +189,7 @@ body {
     width: 170px;
     height: 53px;
     margin-left: calc(50% - 85px);
+    border-radius: 3px;
 }
 
 .header .slider .content a:hover {
@@ -256,6 +257,19 @@ body {
     background-position: bottom center;
 }
 
+.s2 .content a:hover .icons {
+    animation: 2s linear 0s normal none running rot;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotatey(0deg);
+    }
+
+    100% {
+        transform: rotatey(360deg);
+    }
+}
 
 .s2 .content a img {
     display: block;
@@ -299,3 +313,371 @@ body {
     text-align: center;
     margin-top: 0px;
 }
+
+.s3 {
+    background-color: #fbfaf8;
+}
+
+.s3 h2 {
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 83px;
+    margin-bottom: 24px;
+}
+
+.s3 p {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    max-width: 757px;
+    margin-left: calc(50% - 378.5px);
+    margin-bottom: 40px;
+}
+
+.s3 div {
+    max-width: 1230px;
+    margin: 0 auto;
+    height: 482px;
+    background: url("../img/browser-center.jpg") center bottom no-repeat,
+        url("../img/browser-left.jpg") left bottom no-repeat,
+        url("../img/browser-right.jpg") right bottom no-repeat;
+    background-size: auto;
+}
+
+.s4 {
+    width: 100%;
+    background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+
+.s4 .content {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.s4 .content div {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.s4 h2 .sp1 {
+    font-family: Raleway;
+    color: #c7b299;
+    font-size: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+}
+
+.s4 h2 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    padding-top: 48px;
+    margin-bottom: 4px;
+
+}
+
+.s4 p {
+    font-family: Montserrat;
+    color: #615855;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 49px;
+}
+
+.s4 a {
+    display: block;
+    text-decoration: none;
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 50px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+
+.s4 a:hover {
+    background-color: white;
+    color: #998675;
+}
+
+.s5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s5 > h2 {
+    margin: 0 auto;
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: center;
+    padding-top: 81px;
+    margin-bottom: 24px;
+}
+
+.s5 > p {
+    margin: 0 auto;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    max-width: 757px;
+    margin-bottom: 40px;
+}
+
+.s5 menu {
+    align-self: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.s5 menu li {
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+.s5 menu li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 21px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    box-sizing: border-box;
+    background-color: rgba(17, 17, 17, 0);
+    padding: 11px 24px;
+}
+
+.s5 menu li a:hover {
+    background-color: #998675;
+    color: #ffffff;
+}
+
+.s5 menu li:hover {
+    display: block;
+    animation: 1s linear 0.5s normal none running rot1;
+}
+
+@keyframes rot1 {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+
+.s5 .content {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.s5 .content div {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.s5 .content div a {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-top: 106px;
+    visibility: hidden;
+}
+
+.s5 .content div .hv {
+    position: absolute;
+    visibility: hidden;
+    width: 370px;
+    height: 237px;
+    margin: 0 0;
+}
+
+.s5 .content div:hover .link {
+    background: url("../img/link.png") no-repeat;
+    background-size: contain;
+    left: calc(50% - 38px);
+    visibility: visible;
+}
+
+.s5 .content div:hover .link:hover {
+    background: url("../img/link-hover.png") no-repeat;
+    background-size: contain;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}
+
+.s5 .content div:hover .lupa {
+    background: url("../img/lupa.png") no-repeat;
+    background-size: contain;
+    left: calc(50% + 14px);
+    visibility: visible;
+}
+
+.s5 .content div:hover .lupa:hover {
+    background: url("../img/lupa-hover.png") no-repeat;
+    background-size: contain;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}
+
+.s5 .content div:hover .hv {
+    visibility: visible;
+    background-color: rgba(17, 17, 17, 0.7);
+    z-index: 1;
+
+}
+
+.s5 .content img {
+    width: 370px;
+    height: 237px;
+    margin: 0;
+}
+
+.s5 .content blockquota {
+    background-color: #fbfaf8;
+    width: 370px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+}
+
+.s5 .content div:hover blockquota {
+    background-color: #362f2d;
+}
+
+.s5 .content div:hover h3 {
+    color: #ffffff;
+}
+
+.s5 .content div:hover p {
+    color: #c7b299;
+}
+
+.s5 .content blockquota h3 {
+    font-family: Raleway;
+    color: #c7b29a;
+    font-size: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    margin-left: 28px;
+}
+
+.s5 .content blockquota p {
+    font-family: Montserrat;
+    color: #d1d1d1;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin: 0;
+    margin-left: 28px;
+}
+
+.s5 .content blockquota .angle {
+    width: 20px;
+    height: 20px;
+    background-color: #fbfaf8;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -22px;
+    left: 19px;
+    overflow: hidden;
+}
+
+.s5 .content div:hover blockquota .angle {
+    visibility: hidden;
+}
+
+.s5 > a {
+    display: block;
+    text-decoration: none;
+    width: 168px;
+    height: 48px;
+    background-color: #998675;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 50px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: 2px solid #998675;
+    margin-bottom: 80px;
+}
+
+.s5 > a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.
